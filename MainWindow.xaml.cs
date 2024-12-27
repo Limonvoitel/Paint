@@ -53,8 +53,8 @@ namespace Paint
         {
             Ellipse ellipse = new Ellipse();
             ellipse.Fill = Brushes.Aqua;
-            ellipse.Width = 5;
-            ellipse.Height = 5;
+            ellipse.Width = 20;
+            ellipse.Height = 20;
 
             Canvas.SetTop(ellipse, position.Y);
             Canvas.SetLeft(ellipse, position.X);
